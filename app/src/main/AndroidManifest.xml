@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
+            android:name=".Accueil"
+            android:exported="false" />
+        <activity
             android:name=".Administrateur"
             android:exported="false" />
         <activity

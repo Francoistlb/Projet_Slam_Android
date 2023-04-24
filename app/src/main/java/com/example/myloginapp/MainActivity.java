@@ -140,17 +140,6 @@ public class MainActivity extends AppCompatActivity {
                 password.setText("");
                 Toast.makeText(context, "Connexion réussie", Toast.LENGTH_SHORT).show();
 
-                if(userVar.equals("francois@gmail.com"))
-                {
-                    Intent i = new Intent(MainActivity.this, Comptable.class);
-                    startActivity(i);
-                }
-
-                if(userVar.equals("liam@gmail.com"))
-                {
-                    Intent i = new Intent(MainActivity.this, Administrateur.class);
-                    startActivity(i);
-                }
 
                 if(userVar.equals("vincent@gmail.com"))
                 {
@@ -158,11 +147,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
                 }
 
-                if(userVar.equals("saikou@gmail.com"))
-                {
-                    Intent i = new Intent(MainActivity.this, Responsable.class);
-                    startActivity(i);
-                }
+
 
             } else if (status == HttpURLConnection.HTTP_BAD_REQUEST) {
                 Toast.makeText(context, "Identifiant ou mot de passe incorrect", Toast.LENGTH_LONG).show();

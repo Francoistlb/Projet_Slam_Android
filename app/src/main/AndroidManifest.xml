@@ -12,16 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
-            android:name=".Administrateur"
+            android:name=".VisiteurConsultation"
             android:exported="false" />
         <activity
-            android:name=".Responsable"
+            android:name=".VisiteurCreation"
             android:exported="false" />
         <activity
             android:name=".Visiteur"
-            android:exported="false" />
-        <activity
-            android:name=".Comptable"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"

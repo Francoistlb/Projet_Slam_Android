@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Visiteur">
+
+    <LinearLayout
+        android:id="@+id/titreVisiteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Bienvenue"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Espace visiteur"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+
+
+        <Button
+            android:id="@+id/creer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Créer"
+            android:layout_marginRight="10dp"/>
+
+
+        <Button
+            android:id="@+id/consulter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consulter" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom">
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Déconnexion" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

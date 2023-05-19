@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+
+    <string name="choose_amount">-Veuillez choisir un type de voiture-</string>
+    <string-array name="cv_array">
+        <item>-Veuillez choisir un type de voiture-</item>
+        <item>(Véhicule 4CV Diesel) 0.52 €/Km</item>
+        <item>(Véhicule 5CV Diesel) 0.58 €/Km</item>
+        <item>(Véhicule 6CV Diesel) 0.62 €/Km</item>
+        <item>(Véhicule 6CV Essence) 0.67 €/Km</item>
+    </string-array>
+
+</resources>
